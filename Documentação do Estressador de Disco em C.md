@@ -31,3 +31,7 @@ sudo apt install build-essential -y
    - `-lrt`: Linka com a biblioteca de tempo real, necessária para `mmap` em algumas configurações.
 
    Se a compilação for bem-sucedida, nenhum erro será exibido e um arquivo executável chamado `disk_stressor` será criado no mesmo diretório.
+
+3. Execute o estressador com o seguinte comando:
+
+   `./disk_stressor <Tempo de duração em segundos>`
